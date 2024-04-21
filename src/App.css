@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,body{
+  height: 100vh;
+  max-width: 100%;
+}
+
+
+
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  margin: 5px;
+}
