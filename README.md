@@ -6,7 +6,7 @@
 ![Screenshot 22-04-2024 00_08_10](https://github.com/MTeju/Weather_App_ReactJS/assets/106768538/0f5cee82-0c0d-4951-b72b-bca55dcd4cea)
 #
 
-# Takes the input from the user ( user should enter the City name or Zip Code, The weather status like Temperature , wind speed, Humidity ) will be displayed accordingly.
+## Takes the input from the user ( user should enter the City name or Zip Code, The weather status like Temperature , wind speed, Humidity ) will be displayed accordingly.
 
 ## The Background color can also be changes, as this app will offers 5 colors to change theam.
 
