@@ -15,6 +15,7 @@ const RightContainer = () => {
   const feelsLike = data.main?.feels_like??'-';
   const windSpeed = data.wind?.speed ? (data.wind?.speed * 3.6).toFixed(2) : '-';
   const cityName = data.name;
+  const description = data.weather?.[0]?.main ?? '-';
  
   const dispData = () => {
     console.log(value)
@@ -85,7 +86,7 @@ const RightContainer = () => {
 
         <div className="mid-bot" style={{background: col,color : txtCol}}>
           <div className="feels">
-            Cloudy
+            {description}
           </div>
           <div className="feels-like">
             Feels Like <span style={{color : smallText}}>{feelsLike}&deg;</span>
